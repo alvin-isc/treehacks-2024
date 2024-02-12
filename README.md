@@ -1,22 +1,39 @@
 # treehacks-2024
-Documentation for getting start with IRIS vector search
+## InterSystems IRIS Quickstart
 
 dataset from https://www.kaggle.com/datasets/koki25ando/22000-scotch-whisky-reviews
 
+1. Clone the repo
+    ```
+    https://github.com/alvin-isc/treehacks-2024.git
+    ```
+    In the following steps, replace 'PATH' with the path to the repo. 
+2. Install IRIS (Community Edtion) in a container:
+    ```
+    docker run --name iris -d --publish 1972:1972 --publish 52773:52773 containers.intersystems.com/intersystems/iris-community-arm64:latest-preview 
+    ```
+    - Access the System Management Portal via http://localhost:52773/csp/sys/UtilHome.csp (user: SUPERUSER, pw: SYS)
+    - Change the password as prompted
+3. Create a python environment (conda, venv or however you wish) For example:
+    
+    ```
+    conda create --name treehacks-iris python=3.10
+    ``` 
+    
+## Install packages for all demos:
+```
+pip install -r requirements.txt
+```
 
-1. Install iris
-2. Install iris python
-3. Create a python environment (conda or venv) 
-4. pip install langchain-iris 
-5. 
-
-
-## Install packages for sql_demo.ipynb:
+## Install packages for specific demos:
+### sql_demo.ipynb:
 ```
  pip install 
 ```
 
-## Install packages for langchain_demo.ipynb:
+### langchain_demo.ipynb:
 ```
  pip install 
 ```
+
+### llama-demo.ipynb:
