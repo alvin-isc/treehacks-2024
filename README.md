@@ -1,19 +1,23 @@
 # treehacks-2024
 ## InterSystems IRIS Quickstart
 
-dataset from https://www.kaggle.com/datasets/koki25ando/22000-scotch-whisky-reviews
 
 1. Clone the repo
     ```
     https://github.com/alvin-isc/treehacks-2024.git
     ```
-    In the following steps, replace 'PATH' with the path to the repo. 
+    In the following steps, replace 'PATH-TO-REPO' with the path to the repo. 
 2. Install IRIS (Community Edtion) in a container:
     ```
-    docker run --name iris -d --publish 1972:1972 --publish 52773:52773 containers.intersystems.com/intersystems/iris-community-arm64:latest-preview 
+    docker run -d --name iris-comm \
+    -p 1972:1972 \
+    -p 52773:52773 \
+    --volume /Users/aryanput/dp/treehacks-2024/external:/external \
+    containers.intersystems.com/intersystems/iris-community-arm64:2024.1-preview \
+    --key /external/iris.key 
     ```
     - Access the System Management Portal via http://localhost:52773/csp/sys/UtilHome.csp (user: SUPERUSER, pw: SYS)
-    - Change the password as prompted
+    - Change the password as prompted. The demo notebooks use a password of 'SYS2'.
 3. Create a python environment (conda, venv or however you wish) For example:
     
     ```
