@@ -1,3 +1,11 @@
 https://github.com/alvin-isc/treehacks-2024/releases/download/3.2.0/intersystems_irispython-3.2.0-py3-none-any.whl
+langchain-iris
+testcontainers-iris
+llama-iris
 sentence-transformers
 langchain
+fastembed 
+openai 
+tiktoken
+python-dotenv
+pandas
