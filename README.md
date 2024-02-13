@@ -12,7 +12,7 @@
     docker run -d --name iris-comm \
     -p 1972:1972 \
     -p 52773:52773 \
-    --volume /Users/aryanput/dp/treehacks-2024/external:/external \
+    --volume /PATH-TO-REPO/external:/external \
     containers.intersystems.com/intersystems/iris-community-arm64:2024.1-preview \
     --key /external/iris.key 
     ```
@@ -28,16 +28,3 @@
 ```
 pip install -r requirements.txt
 ```
-
-## Install packages for specific demos:
-### sql_demo.ipynb:
-```
- pip install 
-```
-
-### langchain_demo.ipynb:
-```
- pip install 
-```
-
-### llama-demo.ipynb:
