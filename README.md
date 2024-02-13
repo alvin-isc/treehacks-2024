@@ -31,13 +31,13 @@
     
 ## Demos
 
-### /demo/sql_demo.ipynb
+### [sql_demo.ipynb](demo/sql_demo.ipynb)
 IRIS SQL now supports vector search (with filters)! In this demo, we're searching a whiskey dataset for whiskeys that are priced < $100 and have a taste description similar to "earthy and creamy taste".
 
-### /demo/langchain_demo.ipynb
+### [langchain_demo.ipynb](demo/langchain_demo.ipynb)
 IRIS now has a langchain integration as a VectorDB! In this demo, we use the langchain framework with IRIS to ingest and search through a document. 
 
-### /demo/llama_demo.ipynb
+### [llama_demo.ipynb](demo/llama_demo.ipynb)
 IRIS now has a llama_index integration as a VectorDB! In this demo, we use the llama_index framework with IRIS to ingest and search through a document. 
 
 ## Which to use?
