@@ -1,4 +1,5 @@
 # treehacks-2024
+View InterSystem's challenge [here](/TREEHACKS_CHALLENGE.md)
 ## InterSystems IRIS Vector Search Quickstart
 
 
