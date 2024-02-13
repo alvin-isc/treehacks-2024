@@ -1,5 +1,5 @@
 # treehacks-2024
-## InterSystems IRIS Quickstart
+## InterSystems IRIS Vector Search Quickstart
 
 
 1. Clone the repo
