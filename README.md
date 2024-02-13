@@ -29,7 +29,7 @@
     pip install -r requirements.txt
     ```
     
-## Demos
+## Basic Demos
 
 ### [sql_demo.ipynb](demo/sql_demo.ipynb)
 IRIS SQL now supports vector search (with filters)! In this demo, we're searching a whiskey dataset for whiskeys that are priced < $100 and have a taste description similar to "earthy and creamy taste".
@@ -48,3 +48,17 @@ If you're building a genAI app that uses a variety of tools (agents, chained rea
 If you're building a RAG app, go for llama_indx.
 
 Feel free to contact Alvin / Thomas if you have any questions!
+
+## More Demos / References:
+
+### [NLP Queries on  Youtube Audtio Transcription](https://github.com/jrpereirajr/intersystems-iris-notebooks/blob/main/vector/langchain-iris/nlp_queries_on_youtube_audio_transcription_dataset.ipynb)
+Uses langchain-iris to search Youtube Audiot transcriptions
+
+### [langchain-iris demo](https://github.com/caretdev/langchain-iris/blob/main/demo.ipynb)
+Original IRIS langhain demo, that runs the containerized IRIS in the notebook
+
+### [llama-iris demo](https://github.com/caretdev/llama-iris/blob/main/demo.ipynb)
+Original IRIS llama_index demo, that runs the containerized IRIS in the notebook
+
+### [InterSystems Documentation](https://docs.intersystems.com/)
+Official page for InterSystems Documentation
