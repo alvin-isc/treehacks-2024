@@ -27,6 +27,11 @@ View InterSystem's challenge [here](/TREEHACKS_CHALLENGE.md)
     ```
     pip install -r requirements.txt
     ```
+
+5. For [langchain_demo.ipynb](demo/langchain_demo.ipynb) and [llama_demo.ipynb](demo/llama_demo.ipynb) , you need an [OpenAI API Key](https://platform.openai.com/api-keys). Create a .env file in this repo to store the key:
+    ```
+    OPENAI_API_KEY=xxxxxxxxx
+    ```
     
 ## Basic Demos
 
