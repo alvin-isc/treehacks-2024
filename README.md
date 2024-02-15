@@ -13,9 +13,7 @@ View InterSystem's challenge [here](/TREEHACKS_CHALLENGE.md)
     docker run -d --name iris-comm \
     -p 1972:1972 \
     -p 52773:52773 \
-    --volume /PATH-TO-REPO/external:/external \
-    containers.intersystems.com/intersystems/iris-community-arm64:2024.1-preview \
-    --key /external/iris.key 
+    intersystemsdc/iris-community:2024.1-preview
     ```
     - Access the System Management Portal via http://localhost:52773/csp/sys/UtilHome.csp (user: SUPERUSER, pw: SYS)
     - Change the password as prompted. The demo notebooks use a password of 'SYS2'.
