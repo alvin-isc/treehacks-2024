@@ -1,7 +1,13 @@
-# treehacks-2024
-View InterSystem's challenge [here](/TREEHACKS_CHALLENGE.md)
-## InterSystems IRIS Vector Search Quickstart
+# InterSystems @ treehacks-2024
+[InterSystems](https://www.intersystems.com) is proud to be a sponsor of Treehacks 2024!
 
+We are excited to introduce the hordes of hackers gathered to [InterSystems IRIS](https://www.intersystems.com/try-intersystems-iris-for-free/) and we're offering great cash prizes for the brave souls that take up the [InterSystems Treehacks Challenge](//TREEHACKS_CHALLENGE.md)
+
+## What is InterSystems IRIS and IRIS Vector Search?
+InterSystems IRIS is a rock-solid wicked-fast swiss-army-knife data platform that you can run anywhere - on-premises, your cloud, or use our Cloud Services!
+We are launching new Vector Search capabilities to seamlessly power your unstructured data search and Gen AI Retrieval Augmented Generation (RAG) applications in the same platform where you manage the rest of your data -- transactions, documents, analytics, etc.!
+
+## InterSystems IRIS Vector Search Quickstart
 
 1. Clone the repo
     ```
@@ -55,8 +61,8 @@ Feel free to contact Alvin / Thomas if you have any questions!
 
 ## More Demos / References:
 
-### [NLP Queries on  Youtube Audio Transcription](https://github.com/jrpereirajr/intersystems-iris-notebooks/blob/main/vector/langchain-iris/nlp_queries_on_youtube_audio_transcription_dataset.ipynb)
-Uses langchain-iris to search Youtube Audio transcriptions
+### [NLP Queries on  Youtube Audtio Transcription](https://github.com/jrpereirajr/intersystems-iris-notebooks/blob/main/vector/langchain-iris/nlp_queries_on_youtube_audio_transcription_dataset.ipynb)
+Uses langchain-iris to search Youtube Audiot transcriptions
 
 ### [langchain-iris demo](https://github.com/caretdev/langchain-iris/blob/main/demo.ipynb)
 Original IRIS langhain demo, that runs the containerized IRIS in the notebook
