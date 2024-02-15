@@ -61,8 +61,8 @@ Feel free to contact Alvin / Thomas if you have any questions!
 
 ## More Demos / References:
 
-### [NLP Queries on  Youtube Audtio Transcription](https://github.com/jrpereirajr/intersystems-iris-notebooks/blob/main/vector/langchain-iris/nlp_queries_on_youtube_audio_transcription_dataset.ipynb)
-Uses langchain-iris to search Youtube Audiot transcriptions
+### [NLP Queries on  Youtube Audio Transcription](https://github.com/jrpereirajr/intersystems-iris-notebooks/blob/main/vector/langchain-iris/nlp_queries_on_youtube_audio_transcription_dataset.ipynb)
+Uses langchain-iris to search Youtube Audio transcriptions
 
 ### [langchain-iris demo](https://github.com/caretdev/langchain-iris/blob/main/demo.ipynb)
 Original IRIS langhain demo, that runs the containerized IRIS in the notebook
