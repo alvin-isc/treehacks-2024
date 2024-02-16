@@ -1,7 +1,7 @@
 # InterSystems @ treehacks-2024
 [InterSystems](https://www.intersystems.com) is proud to be a sponsor of Treehacks 2024!
 
-We are excited to introduce the hordes of hackers gathered to [InterSystems IRIS](https://www.intersystems.com/try-intersystems-iris-for-free/) and we're offering great cash prizes for the brave souls that take up the [InterSystems Treehacks Challenge](//TREEHACKS_CHALLENGE.md)
+We are excited to introduce the hordes of hackers gathered to [InterSystems IRIS](https://www.intersystems.com/try-intersystems-iris-for-free/) and we're offering great cash prizes for the brave souls that take up the [InterSystems Treehacks Challenge](/TREEHACKS_CHALLENGE.md)
 
 ## What is InterSystems IRIS and IRIS Vector Search?
 InterSystems IRIS is a rock-solid wicked-fast swiss-army-knife data platform that you can run anywhere - on-premises, your cloud, or use our Cloud Services!
