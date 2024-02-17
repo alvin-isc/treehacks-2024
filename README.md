@@ -16,10 +16,7 @@ We are launching new Vector Search capabilities to seamlessly power your unstruc
     In the following steps, replace 'PATH-TO-REPO' with the path to the repo. 
 2. Install IRIS (Community Edtion) in a container:
     ```
-    docker run -d --name iris-comm \
-    -p 1972:1972 \
-    -p 52773:52773 \
-    intersystemsdc/iris-community:2024.1-preview
+    docker run -d --name iris-comm -p 1972:1972 -p 52773:52773 intersystemsdc/iris-community:2024.1-preview
     ```
     - Access the System Management Portal via http://localhost:52773/csp/sys/UtilHome.csp (user: SUPERUSER, pw: SYS)
     - Change the password as prompted. The demo notebooks use a password of 'SYS2'.
